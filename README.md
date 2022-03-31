@@ -1,3 +1,6 @@
+## ProGAN
+
+
 ## Progressive Growing of GANs for Improved Quality, Stability, and Variation<br><i>&mdash; Official TensorFlow implementation of the ICLR 2018 paper</i>
 
 **Tero Karras** (NVIDIA), **Timo Aila** (NVIDIA), **Samuli Laine** (NVIDIA), **Jaakko Lehtinen** (NVIDIA and Aalto University)
@@ -173,3 +176,4 @@ Training results can be analyzed in several ways:
   * Uncomment the `generate_interpolation_video` line in `config.py`, replace `run_id=10`, and run `python train.py`
   * The script will automatically locate the latest network snapshot and create a new result directory containing a single MP4 file.
 * **Quality metrics**: Similar to the previous example, `config.py` also contains pre-defined configs to compute various quality metrics (Sliced Wasserstein distance, Fr&eacute;chet inception distance, etc.) for an existing training run. The metrics are computed for each network snapshot in succession and stored in `metric-*.txt` in the original result directory.
+# PCGAN
